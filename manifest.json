@@ -1,0 +1,15 @@
+{
+
+    "modules": [{
+        "name": "out",
+        "load": {
+            "local": [
+                    "lodash.min.js",
+			        "out.js"
+                    ],
+            "shared": [
+                "angular-resource.min.js"
+            ]
+        }
+    }]
+}
